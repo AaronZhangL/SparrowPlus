@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Default Client:</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.freemanrepo.sparrowplus/prefs</string>
+			<key>alternateColors</key>
+			<true/>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.freemanrepo.sparrowplus</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Sparrow</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>After enabling, use the contact button down there for testing if it's working or not.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>More Tweaks:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>laPressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>LockAssistant</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>msPressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>MediaSpeak</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>sbPressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>SiriBoard</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>More:</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>followPressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Twitter</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>contactPressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Test Default Client</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>websitePressed:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Website</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Sparrow+ by Majd Alfhaily.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Sparrow+</string>
+</dict>
+</plist>

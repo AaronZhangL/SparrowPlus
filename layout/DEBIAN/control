@@ -1,0 +1,12 @@
+Package: com.freemanrepo.sparrowplus
+Name: Sparrow+
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.ipuipu.pushsparrow, be.rud0lf77.spatzplus
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Enable Sparrow push notifications + make it defualt mail app
+Maintainer: FreeManRepo <majdfhailylebanon@gmail.com>
+Author: FreeManRepo <majdfhailylebanon@gmail.com>
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/SparrowPrefs.bundle/SparrowCydia.png
+

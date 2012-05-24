@@ -1,0 +1,27 @@
+#!/bin/sh
+
+echo "Looking For Sparrow.app"
+tempLoc=$(find /var/mobile/Applications/ -name "Sparrow.app")
+
+
+if [ ! -z "$tempLoc" ]; then
+	AppCount=$(echo "$tempLoc" | wc -l)
+	if [ $AppCount -gt 1 ]; then
+		echo "Found $AppCount."
+	else
+					echo "Found app in $tempLoc"
+						
+						echo
+						echo "Enabling Push Notifications!"
+		  
+				  mv -f push/* "$tempLoc/"
+				 chmod -R 755 "$tempLoc/"
+				chown -R mobile.mobile "$tempLoc/"
+	
+	fi
+fi
+
+echo
+echo "Enjoy your Sparrow app :)"
+echo "Brought to you by Majd Alfhaily"
+echo "Dont forget to follow me on Twitter (@FreeManRepo)."
